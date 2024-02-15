@@ -1,0 +1,128 @@
+{
+    "api": {
+        "id": "allcoins.pw",
+        "worker-id": "2dorrah"
+    },
+    "http": {
+        "enabled": true,
+        "host": "168.235.86.33",
+        "port": 0,
+        "access-token": "SK_QzApkbVGsAxyQykaWSnEF",
+        "restricted": false
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "init": -1,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": true,
+        "priority": null,
+        "memory-pool": 18000,
+        "argon2-impl": null,
+        "argon2": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "argon2/sha256": [-1],
+        "chaost256": [
+            [2, 6], 3, 6, 4, 1,
+            [3, 1], 7, 1, 5, 4,
+            [2, 0], 0, 5, 5, 1,
+            [1, 3], 2, 4, 5, 1,
+            [4, 7], 7, 7, 3, 5, 6, 4, 7, 0,
+            [2, 4], 2, 5, 3, 4,
+            [5, 7], 5, 2, 3, 1],
+        "cn": [-1],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3],
+            [1, 4]
+        ],
+        "cn-lite": [-1],
+        "cn-pico": [-1],
+        "cn/2": [-1],
+        "cn/upx2": [-1],
+        "kawpow": [-1],
+        "priority": [0, 5, 2, 8, 7, 6, 1, 3, 6, 4, 0, 1, 8],
+        "rx/wow": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+        "cn/0": false,
+        "cn-lite/0": false,
+        "rx/0": "chaost256",
+        "rx/arq": "rx/wow"
+    },
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "INTEL"
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null,
+        "nvml": "auto"
+    },
+    "donate-level": 1,
+    "donate-over-proxy": 0,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "xmrig.nanswap.com:3333",
+            "user": "XNO:nano_1bs9fcbwwfqta3p8g559rto16zpsdjtp3d6zuujzp7ebrioman9nifec5e7p.2dorrah",
+            "pass": "681643",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": false,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "self-select": null
+        }
+    ],
+    "cc-client": {
+        "enabled": true,
+        "servers": [
+            {
+                "url": "localhost:3344",
+                "access-token": "SK_QzApkbVGsAxyQykaWSnEF",
+                "use-tls": false
+            }
+        ],
+        "use-remote-logging": true,
+        "upload-config-on-start": true,
+        "worker-id": null,
+        "reboot-cmd": null,
+        "update-interval-s": 10,
+        "retries-to-failover": 5
+    },
+    "print-time": 60,
+    "health-print-time": 60,
+    "dmi": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
